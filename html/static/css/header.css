@@ -1,3 +1,15 @@
 body {
     margin: 0;
 }
+
+.div-menu {
+    background-color: cadetblue;
+}
+
+.div-menu-arriba {
+    background-color: azure;
+}
+
+.div-menu-abajo {
+    background-color: coral;
+}
