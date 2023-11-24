@@ -1,50 +1,92 @@
 <!DOCTYPE html>
-<html>
+<html lang="es" dir="ltr">
 
 <head>
-    <meta charset="utf-8">
-    <title>Pagina de inicio</title>
+    <meta charset="UTF-8">
+    <title>Alojamientos Turísticos de las Islas Baleares</title>
     <link rel="stylesheet" href="./static/css/header.css">
     <link rel="stylesheet" href="./static/css/menu.css">
 </head>
 
 <body>
-    <br>
-    <hr>
-    <p>hola</p>
     <header>
-        <div class="div-menu">
-            <div class="div-menu-arriba">
-                <img class="logo-menu" src="./media/logo.png">
-                <a class="moneda">EUR</a><br>
-                <a class="idioma"><img src="./media/bandera_españa.png"></a><br>
-                <a class="faq"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.75 9a2.25 2.25 0 1 1 3 2.122 2.25 2.25 0 0 0-1.5 2.122v1.006a.75.75 0 0 0 1.5 0v-1.006c0-.318.2-.602.5-.708A3.75 3.75 0 1 0 8.25 9a.75.75 0 1 0 1.5 0zM12 16.5a1.125 1.125 0 1 0 0 2.25 1.125 1.125 0 0 0 0-2.25.75.75 0 0 0 0 1.5.375.375 0 1 1 0-.75.375.375 0 0 1 0 .75.75.75 0 0 0 0-1.5zM22.5 12c0 5.799-4.701 10.5-10.5 10.5S1.5 17.799 1.5 12 6.201 1.5 12 1.5 22.5 6.201 22.5 12zm1.5 0c0-6.627-5.373-12-12-12S0 5.373 0 12s5.373 12 12 12 12-5.373 12-12z"></path></svg></a><br>
-                <a class="registra-texto">Registra tu alojamiento</a><br>
-                <a class="boton-reg-login">Hazte una cuenta</a><br>
-                <a class="boton-reg-login">Inicia sesión</a><br>
-                
-            </div>
-
-            <div class="div-menu-abajo">
-                <a class="" href="#"><span><img src="./media/hotel.png"></span></a>
-                <a class="" href="#">Vuelos</a>
-                <a class="" href="#">Vuelos + Hotel</a>
-                <a class="" href="#">Atracciones Turísticas</a>
-                <a class="" href="#"><span><img src="media/bedicon.png"></span>Taxis aeropuerto</a>
-            </div>
-        </div>
+        <h1>Portal de Alojamientos Turísticos de las Islas Baleares</h1>
         <nav>
-            
+            <div class="div-menu">
+                <div class="div-menu-arriba">
+                    <img class="logo-menu" src="./media/logo.png">
+                    <div class="elementos-arriba-menu">
+                        <a class="moneda">EUR</a>
+                    </div>
+                    <div class="elementos-arriba-menu">
+                        <a><img alt="bandera España" width="30px" src="./media/bandera_españa.png"></a>
+                    </div>
+                    <div class="elementos-arriba-menu">
+                        <a class="faq"><svg alt="faq" width="30px" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.75 9a2.25 2.25 0 1 1 3 2.122 2.25 2.25 0 0 0-1.5 2.122v1.006a.75.75 0 0 0 1.5 0v-1.006c0-.318.2-.602.5-.708A3.75 3.75 0 1 0 8.25 9a.75.75 0 1 0 1.5 0zM12 16.5a1.125 1.125 0 1 0 0 2.25 1.125 1.125 0 0 0 0-2.25.75.75 0 0 0 0 1.5.375.375 0 1 1 0-.75.375.375 0 0 1 0 .75.75.75 0 0 0 0-1.5zM22.5 12c0 5.799-4.701 10.5-10.5 10.5S1.5 17.799 1.5 12 6.201 1.5 12 1.5 22.5 6.201 22.5 12zm1.5 0c0-6.627-5.373-12-12-12S0 5.373 0 12s5.373 12 12 12 12-5.373 12-12z">
+                                </path>
+                            </svg></a>
+                    </div>
+                    <div class="elementos-arriba-menu">
+                        <a>Registra tu alojamiento</a>
+                    </div>
+                    <a class="boton-blanco">Hazte una cuenta</a>
+                    <a class="boton-blanco">Inicia sesión</a>
+                </div>
+                <!---->
+                <div class="div-menu-abajo">
+                    <a id="tres-barras" href="#">
+                        <p>Ejemplo<p>
+                    </a>
+
+                    <div class="elementos-abajo-menu-hoteles">
+                        <a class="" href="#">Hoteles<span><img class="logo-hotel-menu" alt="Hotel" width="30px" src="./media/hotel.png"></span></a>
+                    </div>
+                    
+                    <div class="elementos-abajo-menu">
+                        <a class="" href="#">Vuelos + Hotel</a>
+                    </div>
+                    
+                    <a class="" href="#">Atracciones Turísticas</a>
+                    <a class="" href="#">Taxis aeropuerto<span><img alt="Taxi" width="30px"
+                                src="media/taxi.png"></span></a>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
-        
+        <section>
+            <h2>Descubre pueblos de Mallorca</h2>
+            <article>
+                <h3>Hotel 3 estrellas n1</h3>
+                <img alt="" src="hotel1.jpg">
+                <p>El Hotel Exemplar es un hotel de 5 estrellas situado en Palma. Con vistas al mar y todas las comodidades que puedas imaginar, es el lugar perfecto para tus vacaciones.</p>
+            </article>
+            <article>
+                <h3>Hotel 4 estrellas n2</h3>
+                <img alt="" src="hotel2.jpg">
+                <p>El Hotel de...</p>
+            </article>
+
+            <h2>Barrios de Mallorca</h2>
+            <article>
+                <h3>Santa Catalina</h3>
+                <img alt="" src="barrio1.jpg">
+                <p>El barrio 1.</p>
+            </article>
+        </section>
     </main>
+    <aside>
+        <h2>Noticias o Anuncio</h2>
+        <img alt="" src="noticia1.jpg">
+        <p>Última hora...</p>
+    </aside>
+
     <footer>
-
+        <p>© 2023 Portal de Allotjaments Turístics de les Illes Balears</p>
     </footer>
-
-
 </body>
 
 </html>

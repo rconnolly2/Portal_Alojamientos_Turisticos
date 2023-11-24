@@ -1,15 +1,108 @@
-body {
-    margin: 0;
+/* Mobile version */
+@media(min-width:400px) {
+    body {
+        margin: 0;
+        margin-left: 20%;
+        margin-right: 20%;
+    }    
+
+    #tres-barras{
+        display:flex;
+    }
 }
 
+/* Desktop */
+@media (min-width:900px) {
+    body {
+        margin: 0;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    #tres-barras{
+        display:none;
+    }
+}
+
+
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+
+}
 .div-menu {
     background-color: cadetblue;
+    margin:0;
+    padding: 0;
 }
 
 .div-menu-arriba {
-    background-color: azure;
+    background-color: rgb(21, 21, 253);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:10px;
+    margin:20px;
+    gap:30px;
+    /* gap a lo mejor esta mal */
 }
 
 .div-menu-abajo {
     background-color: coral;
+    display: flex;
+    justify-content: center;
+    padding:10px;
+    margin:20px;
+    gap:100px; 
+    /* gap a lo mejor esta mal */
+}
+
+.logo-menu {
+    width: 200px;
+    margin-right: 80px;
+}
+
+.moneda {
+    display: inline-block;
+}
+
+.idioma {
+    display: inline-block;
+    width: 40px;
+}
+
+.elementos-arriba-menu {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.elementos-arriba-menu:hover {
+    background-color: rgba(255, 255, 255, 0.194);
+    border-radius: 5px;
+}
+
+.boton-blanco {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color: rgb(46, 46, 255);
+    padding: 6px;
+    height: 20px;
+}
+
+.boton-blanco:hover {
+    background-color: rgb(220, 220, 255);
+}
+
+.elementos-abajo-menu-hoteles a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(46, 46, 255, 0.966);
+    border: 2px white solid;
+    border-radius: 30px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
