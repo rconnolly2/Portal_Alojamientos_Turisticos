@@ -9,13 +9,12 @@
 }
 
 footer {
+    width: 100%;
     background-color: #f4f4f4;
     padding: 10px;
     text-align: center;
     bottom: 0;
-    padding-bottom: 2000px;
-    width: 100%;
-    background-image: url("/Portal_Alojamientos_Turisticos-main/html/media/imagen_footer.png");
+    padding-bottom: 375px;
 }
 
 footer p {
@@ -29,4 +28,11 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+.patron-footer {
+    background-image: url("/Portal_Alojamientos_Turisticos-main/html/media/ocean-patron.png");
+    display: flex;
+    align-self:flex-end;
+    padding-bottom: 1000px;
 }
