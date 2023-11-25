@@ -1,0 +1,32 @@
+/* Mobile version */
+@media(min-width:400px) {
+
+}
+
+/* Desktop */
+@media (min-width:900px) {
+
+}
+
+footer {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+    bottom: 0;
+    padding-bottom: 2000px;
+    width: 100%;
+    background-image: url("/html/media/imagen\ footer.png");
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
