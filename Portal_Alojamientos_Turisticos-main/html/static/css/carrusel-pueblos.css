@@ -7,13 +7,13 @@
     display: flex;
   }
 
-  .carousel-item {
+  .carrusel-item {
     flex: 0 0 25%; /* 4 columnas por fila */
     box-sizing: border-box;
     margin-left: 18px;
   }
 
-  .carousel-item img {
+  .carrusel-item img {
     border-radius: 10px;
   }
 
@@ -36,7 +36,7 @@
       left: 900px;
   }
 
-  .slide-animation {
+  .animacion-slide {
     animation: slide 0.5s ease-in-out;
   }
 

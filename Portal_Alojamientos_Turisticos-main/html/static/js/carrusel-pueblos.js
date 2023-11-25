@@ -1,14 +1,14 @@
 function siguiente_pueblo() {
-    const carousel = document.getElementById('carousel');
-    const firstItem = carousel.firstElementChild;
+    let carrusel = document.getElementById('carousel');
+    let primer_elemento = carousel.firstElementChild;
 
-    // Apply the animation class
-    carousel.classList.add('slide-animation');
+    // Añado clase con animación
+    carrusel.classList.add('animacion-slide');
 
-    // Remove the animation class after the animation ends
+    // Quito animación y añado primer elemento de div atrás
     setTimeout(() => {
-      carousel.appendChild(firstItem);
-      carousel.classList.remove('slide-animation');
+        carrusel.appendChild(primer_elemento);
+        carrusel.classList.remove('animacion-slide');
     }, 400);
    
 
