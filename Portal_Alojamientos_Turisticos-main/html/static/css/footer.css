@@ -1,18 +1,15 @@
 /* Mobile version */
-@media(min-width:400px) {
-
-}
+@media(min-width:400px) {}
 
 /* Desktop */
-@media (min-width:900px) {
-
-}
+@media (min-width:900px) {}
 
 footer {
     width: 100%;
     background-color: #f4f4f4;
     padding: 10px;
     text-align: center;
+    align-items: center;
     bottom: 0;
     padding-bottom: 375px;
 }
@@ -33,6 +30,26 @@ footer a:hover {
 .patron-footer {
     background-image: url("/Portal_Alojamientos_Turisticos-main/html/media/ocean-patron.png");
     display: flex;
-    align-self:flex-end;
+    align-self: flex-end;
+    align-content: center;
     padding-bottom: 1000px;
+}
+
+.información-pag {
+    background-color: wheat;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding-left: 20px;
+    display: flex;
+    align-content: center;
+    border: white 10px solid;
+    flex-direction: column;
+}
+
+.separacionInfo {
+    padding-left: 100px;
+    margin: 40px;
+    padding-top: 100px;
+    display: flex;
 }
