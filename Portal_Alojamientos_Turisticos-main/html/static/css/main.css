@@ -8,20 +8,21 @@
 
 }
 table {
-    padding-top: 100px;
     padding-bottom: 100px;
     flex:none;
-    display: block;
+
 }
 tbody{
     padding: 20px;
 }
 tr{
     width: 600px;
-    height: 80px;
+    height: 100px;
+    margin-top: 20px;
+    display: block;
 }
 td{
-    width: 300px;
+    width: 1000px;
     background-color: blueviolet;
 }
 
@@ -33,21 +34,21 @@ table img {
 
 /* arreglar pendiente */
 .imagenPromo {
-    margin: 0; /* Elimina el margen predeterminado del cuerpo */
-    padding: 0; /* Elimina el relleno predeterminado del cuerpo */
+    margin: 0;
+    padding: 0; 
     background-image: url("/html/media/imagen\ footer.png") no-repeat center;
     background-size: cover;
 }
 
 header {
-    position: relative; /* Asegura que el contenido del encabezado no se superponga en la imagen de fondo */
-    z-index: 1; /* Coloca el encabezado en la parte superior de la imagen de fondo */
+    position: relative; 
+    z-index: 1;
 }
 
 main {
-    padding: 20px; /* Agrega un relleno al contenido principal para separarlo de la imagen de fondo */
-    background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente para mejorar la legibilidad del contenido */
-    position: relative; /* Asegura que el contenido principal no se superponga en la imagen de fondo */
-    z-index: 2; /* Coloca el contenido principal sobre la imagen de fondo */
+    padding: 20px; 
+    background-color: rgba(255, 255, 255, 0.8); 
+    position: relative; 
+    z-index: 2; 
 }
 
