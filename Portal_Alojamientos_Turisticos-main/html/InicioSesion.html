@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Alojamientos Turísticos de las Islas Baleares</title>
+    <meta name="keywords" content="Islas Baleares, Alojamientos Turísticos, Hoteles, Mallorca">
+    <meta name="author" content="Roberto Connolly Ramis, Juan Ángel Catalán Guarino">
+    <meta name="description"
+        content="Alojamientos turístucos en las Islas Baleares. Encuentra tu mejor opción para tus vacaciones en hoteles, apartamentos y más.">
+    <link rel="stylesheet" href="./static/css/header.css">
+    <link rel="stylesheet" href="./static/css/menu.css">
+    <link rel="stylesheet" href="./static/css/main.css">
+    <link rel="stylesheet" href="./static/css/footer.css">
+    <link rel="stylesheet" href="./static/css/carrusel-pueblos.css">
+    <script src="./static/js/carrusel-pueblos.js"></script>
+</head>
+
+<body>
+    <form action="http://www.infojobs.com" method="get">
+        <fieldset>
+            <legend>Registro de nuevo usuario</legend>
+            <fieldset>
+                <legend>Datos personales</legend>
+                <label for="nombre">Nombre y apellidos</label>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+
+                <label for="direccion">Dirección</label>
+                <input type="text" id="direccion" name="direccion" placeholder="Dirección C/ De la abundancia, 1"
+                    required style="width: 320px;"><br><br>
+
+                <label for="telefono">Telefono:</label>
+                <input type="tel" id="telefono" name="telefono" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" required><br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Información técnica</legend>
+                <label for="programador">Programador:</label><br>
+                <input type="radio" id="si" name="programador" value="si" required>
+                <label for="si">Sí</label>
+                <input type="radio" id="no" name="programador" value="no" required>
+                <label for="no">No</label><br><br>
+
+                <label for="lenguajes">Lenguajes de programación:</label><br>
+                <input type="checkbox" id="java" name="java" value="java">
+                <label for="java">Java</label>
+                <input type="checkbox" id="python" name="python" value="python">
+                <label for="python">Python</label>
+                <input type="checkbox" id="rust" name="rust" value="rust">
+                <label for="rust">Rust</label><br><br>
+
+                <label for="descripcion">Descripción</label><br>
+                <textarea id="descripcion" name="descripcion" maxlength="200"
+                    placeholder="Escribe aquí más detalles."></textarea><br><br>
+
+            </fieldset>
+            <br>
+            <input type="submit" value="Enviar formulario">
+            <input type="reset" value="Restablecer formulario">
+        </fieldset>
+    </form>
+</body>
+
+</html>

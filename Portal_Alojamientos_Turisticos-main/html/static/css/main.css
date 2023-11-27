@@ -33,11 +33,13 @@ table img {
 
 
 /* arreglar pendiente */
-.imagenPromo {
+#imagenPromo {
     margin: 0;
     padding: 0; 
-    background-image: url("/html/media/imagen\ footer.png") no-repeat center;
+    background-image: url("/Portal_Alojamientos_Turisticos-main/html/media/imagen_footer.png");
     background-size: cover;
+    height: 400px;
+    width: auto;
 }
 
 header {
