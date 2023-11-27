@@ -8,7 +8,21 @@
 
 }
 table {
-    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    flex:none;
+    display: block;
+}
+tbody{
+    padding: 20px;
+}
+tr{
+    width: 600px;
+    height: 80px;
+}
+td{
+    width: 300px;
+    background-color: blueviolet;
 }
 
 table img {
@@ -37,11 +51,3 @@ main {
     z-index: 2; /* Coloca el contenido principal sobre la imagen de fondo */
 }
 
-td {
-    width: 50%;
-    background-color: blueviolet;
-
-}
-tr {
-    flex-direction: column;
-}
