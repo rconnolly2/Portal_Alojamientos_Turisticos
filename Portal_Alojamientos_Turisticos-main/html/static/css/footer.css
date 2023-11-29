@@ -31,11 +31,12 @@ footer a:hover {
     background-image: url("/Portal_Alojamientos_Turisticos-main/html/media/ocean-patron.png");
     width: auto;
     height: auto;
+    display: block;
 }
 
 .información-pag {
     background-color: wheat;
-    display: block;
+    display: inline-block;
     margin-left: auto;
     margin-right: auto;
     height: 200px;
@@ -43,11 +44,4 @@ footer a:hover {
     margin-left: 40px;
     border: blue 10px solid;
 
-}
-
-.separacionInfo {
-    padding-left: 100px;
-    margin: 40px;
-    padding-top: 100px;
-    display: flex;
 }
