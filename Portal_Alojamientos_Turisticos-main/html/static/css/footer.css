@@ -29,22 +29,19 @@ footer a:hover {
 
 .patron-footer {
     background-image: url("/Portal_Alojamientos_Turisticos-main/html/media/ocean-patron.png");
-    display: flex;
-    align-content: center;
-    padding-bottom: 1000px;
-    flex-direction: column;
-    flex-wrap: wrap;
+    width: auto;
+    height: auto;
 }
 
 .información-pag {
     background-color: wheat;
-    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     height: 200px;
-    margin: 10px;
-    padding-left: 20px;
-    display: flex;
-    align-content: center;
-    border: white 10px solid;
+    width: 200px;
+    margin-left: 40px;
+    border: blue 10px solid;
 
 }
 
