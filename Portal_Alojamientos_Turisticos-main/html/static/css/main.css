@@ -36,10 +36,17 @@ table img {
 #imagenPromo {
     margin: 0;
     padding: 0; 
-    background-image: url("/Portal_Alojamientos_Turisticos-main/html/media/imagen_footer.png");
+    background-image: url("/Portal_Alojamientos_Turisticos-main/html/media/imagendebajofooter.jpg");
     background-size: cover;
-    height: 400px;
+    height: 200px;
     width: auto;
+}
+
+#imagenPromo p{
+    background-color: black;
+    font-size: 25px;
+    width: 40%;
+    color: white;
 }
 
 header {
