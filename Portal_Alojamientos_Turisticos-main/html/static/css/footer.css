@@ -6,12 +6,12 @@
 
 footer {
     width: 100%;
-    background-color: #f4f4f4;
-    padding: 10px;
+    background-color: #e9fcff;
+    padding: 40px;
     text-align: center;
     align-items: center;
     bottom: 0;
-    padding-bottom: 375px;
+    padding-bottom: 25px;
 }
 
 footer p {
@@ -20,11 +20,12 @@ footer p {
 
 footer a {
     text-decoration: none;
-    color: #007bff;
+    color: rgb(103, 156, 248);
 }
 
 footer a:hover {
     text-decoration: underline;
+    color: greenyellow;
 }
 
 .patron-footer {
@@ -34,14 +35,24 @@ footer a:hover {
     display: block;
 }
 
+.separar-fondo-info{
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
 .información-pag {
-    background-color: wheat;
+    background-color: white;
     display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
+    padding-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 40px;
     height: 200px;
     width: 200px;
-    margin-left: 40px;
-    border: blue 10px solid;
+    margin-left: 20px;
+    border: rgb(0, 0, 0) 1px solid;
+    border-radius: 10%;
+}
 
+footer p{
+    padding-bottom: 25px;
 }

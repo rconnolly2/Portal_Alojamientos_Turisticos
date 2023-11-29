@@ -1,12 +1,12 @@
 
 .div-menu {
-    background-color: cadetblue;
+    background-color: rgb(87, 165, 255);
     margin:0;
     padding: 0;
 }
 
 .div-menu-arriba {
-    background-color: rgb(21, 21, 253);
+    background-color: rgb(147, 217, 255));
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,7 +17,7 @@
 }
 
 .div-menu-abajo {
-    background-color: coral;
+    background-color: rgb(95, 172, 255);
     display: flex;
     justify-content: center;
     padding:10px;
@@ -68,7 +68,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(255, 131, 85, 0.906);
+    background-color: rgba(85, 147, 255, 0.906);
     border: 2px white solid;
     border-radius: 30px;
     height: 40px;
@@ -92,5 +92,5 @@
 }
 
 .elementos-abajo-menu:hover {
-    background-color: rgba(255, 151, 113, 0.906);
+    background-color: rgba(66, 134, 252, 0.906);
 }
