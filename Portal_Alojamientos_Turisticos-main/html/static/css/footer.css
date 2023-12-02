@@ -24,10 +24,12 @@ footer a {
     display: block;
 }
 
+/* 
 fondo-para-footer-infopincipal {
     justify-content: space-between;
     
 }
+ */
 
 footer a:hover {
     color: greenyellow;
@@ -38,10 +40,12 @@ footer a:hover {
 .a-principal-en-footer {
     text-decoration: underline;
     padding-bottom: 20px;
+    color: blue;
 }
 
-.espacio-entre-img-footer {
-    padding-left: 40px ;
+.espacio-entre-img-footer a {
+    padding: 23px;
+    display: inline;
 }
 
 .patron-footer {
