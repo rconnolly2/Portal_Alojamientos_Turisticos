@@ -5,6 +5,7 @@
 @media (min-width:900px) {}
 
 footer {
+    margin-left: -40px;
     width: 100%;
     background-color: #e9fcff;
     padding: 40px;

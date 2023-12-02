@@ -6,13 +6,13 @@
 }
 
 .div-menu-arriba {
-    background-color: rgb(147, 217, 255));
+    background-color: rgb(147, 217, 255);
     display: flex;
     align-items: center;
     justify-content: center;
     padding:10px;
     margin:20px;
-    gap:30px;
+    gap:2%;
     /* gap a lo mejor esta mal */
 }
 
@@ -22,7 +22,7 @@
     justify-content: center;
     padding:10px;
     margin:20px;
-    gap:100px; 
+    gap:2%;
     /* gap a lo mejor esta mal */
 }
 

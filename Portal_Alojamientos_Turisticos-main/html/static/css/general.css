@@ -6,7 +6,7 @@
         margin-right: 20%;
         background-color: rgb(176, 222, 253);
     }
-
+    /* REVISAR 3 barras */
     #tres-barras{
         display:flex;
     }
