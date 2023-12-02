@@ -75,14 +75,53 @@
     </header>
     <form action="http://cifpfbmoll.eu" method="get">
         <fieldset>
-            <legend>Inicio de sesión: </legend>
+            <legend>Registro de nuevo usuario:</legend>
             <fieldset>
-                <legend>Introduzca sus datos: </legend>
+                <legend>Datos personales: </legend>
+                <label for="nombre">Nombre/s: </label>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+                <label for="apellido">Apellido/s: </label>
+                <input type="text" id="apellido" name="apellido" required><br><br>
                 <label for="correo">Correo electrónico: </label>
                 <input type="email" id="correo" name="correo" required><br><br>
+
+                <label for="direccion">Dirección: </label>
+                <input type="text" id="direccion" name="direccion" placeholder="Dirección C/ Lliri, 7" required
+                    style="width: 320px;"><br><br>
+
                 <label for="contraseña">Contraseña: </label>
-                <input type="password" id="contraseña" name="contraseña" required><br><br>
-            </fieldset>  
+                <input type="password" id="contraseña" name="contraseña" required ><br><br>
+
+                <label for="telefono">Teléfono: </label>
+                <input type="tel" id="telefono" name="telefono" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"
+                    placeholder="XXX-XXX-XXX" required><br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Información sobre usted: </legend>
+                <label for="Sexo">Sexo:</label><br>
+                <input type="radio" id="si" name="sexo" value="hombre" required>
+                <label for="hombre">Hombre</label>
+                <input type="radio" id="no" name="programador" value="mujer" required>
+                <label for="mujer">Mujer</label><br><br>
+
+                <label for="lenguajes">Seleccione las categorias según sus preferencias:</label><br>
+                <input type="checkbox" id="hotel" name="hotel" value="hotel">
+                <label for="hotel">Hoteles</label>
+                <input type="checkbox" id="apartamento" name="apartamento" value="apartamento">
+                <label for="apartamento">Apartamentos Turísticos</label>
+                <input type="checkbox" id="hotelresidencia" name="hotelresidencia" value="hotelresidencia">
+                <label for="hotelresidencia">Hoteles Residencia</label>
+                <input type="checkbox" id="hotelapartamento" name="hotelapartamento" value="hotelapartamento">
+                <label for="hotelapartamento">Hoteles Apartamento</label>
+                <input type="checkbox" id="hostal" name="hostal" value="hostal">
+                <label for="hostal">Hostales</label><br><br>
+
+                <label for="descripcion">Descripción breve o palabras clave de sus intereses:</label><br>
+                <textarea id="descripcion" name="descripcion" maxlength="150"
+                    placeholder="Escribe aquí más detalles."></textarea><br><br>
+
+            </fieldset>
             <br>
             <input type="submit" value="Enviar formulario">
             <input type="reset" value="Restablecer formulario">

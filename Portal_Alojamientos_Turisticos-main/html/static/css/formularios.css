@@ -1,0 +1,6 @@
+fieldset {
+    border: 2px blue solid;
+    color: rgb(4, 4, 79);
+    background-color: rgb(229, 254, 254);
+    padding: 40px;
+}
