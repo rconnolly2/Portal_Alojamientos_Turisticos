@@ -10,29 +10,34 @@
 table {
     padding-bottom: 50px;
     flex:none;
-
-
+    overflow: hidden;
 }
-/* 
-tbody{
-}
- */
+
 tr{
     margin-top: 0;
     display: block;
-    max-width: 80%;
 }
 td{
     background-color: rgb(95, 172, 255);
     padding: 8px;
-    border-radius: 3%;
-}
-
-table img {
-    max-width: 100%;
-    height: auto;
     border-radius: 4%;
 }
+
+thead img{
+    height: 380px;
+    width: 570px;
+    border-radius: 4%;
+    object-fit: cover;
+}
+
+tbody img {
+    max-width: 100%;
+    border-radius: 4%;
+    height: 290px;
+    width: 374px;
+    object-fit: cover;
+}
+
 
 
 /* arreglar pendiente */
@@ -59,7 +64,7 @@ header {
 
 main {
     padding: 20px; 
-    background-color: rgba(255, 255, 255, 0.8); 
+    background-color: rgba(200, 231, 254, 0.734);
     position: relative; 
     z-index: 2; 
 }
