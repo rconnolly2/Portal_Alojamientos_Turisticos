@@ -1,17 +1,18 @@
 
 .div-menu {
-    background-color: rgb(87, 165, 255);
+    background-color: rgb(95, 172, 255);
     margin:0;
     padding: 0;
 }
 
 .div-menu-arriba {
-    background-color: rgb(147, 217, 255);
+    background-color: rgb(95, 172, 255);
     display: flex;
     align-items: center;
     justify-content: center;
     padding:10px;
-    margin:20px;
+    margin:0px;
+
     gap:2%;
     /* gap a lo mejor esta mal */
 }
@@ -21,7 +22,7 @@
     display: flex;
     justify-content: center;
     padding:10px;
-    margin:20px;
+    margin:0px;
     gap:2%;
     /* gap a lo mejor esta mal */
 }
