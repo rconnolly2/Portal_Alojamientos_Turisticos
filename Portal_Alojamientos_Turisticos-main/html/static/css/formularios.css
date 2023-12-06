@@ -25,6 +25,41 @@ fieldset {
     width: 100%;
 }
 
+#telefono {
+    width: 100%;
+}
+
+#nombre {
+    width: 100%;
+}
+
+#apellido {
+    width: 100%;
+}
+
+#hotel {
+    margin-top: 20px;
+}
+
+#apartamento {
+    margin-top: 20px;
+}
+
+#hotelresidencia {
+    margin-top: 20px;
+    
+}
+
+#hotelapartamento {
+    margin-top: 20px;
+
+}
+
+#hostal {
+    margin-top: 20px;
+}
+
+
 .actuar-form {
     text-align: center;
     color:white;
