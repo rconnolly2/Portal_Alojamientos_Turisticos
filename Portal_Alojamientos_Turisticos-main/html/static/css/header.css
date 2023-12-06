@@ -3,6 +3,10 @@
     background-color: rgb(95, 172, 255);
     margin:0;
     padding: 0;
+    /* PARA QUE QUEDE VISIBLE
+    position: fixed;
+    z-index: 1000000000;
+     */
 }
 
 .div-menu-arriba {
