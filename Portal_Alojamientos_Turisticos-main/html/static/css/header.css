@@ -95,3 +95,7 @@
 .elementos-abajo-menu:hover {
     background-color: rgba(66, 134, 252, 0.906);
 }
+
+header {
+    padding-bottom: 20px;
+}
