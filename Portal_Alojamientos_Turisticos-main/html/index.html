@@ -19,10 +19,13 @@
     <link rel="stylesheet" href="./static/css/carrusel-pueblos.css">
     <link rel="stylesheet" href="./static/css/formularios.css">
     <link rel="stylesheet" href="./static/css/aside.css">
+    <link rel="stylesheet" href="./static/css/ofertas.css">
     <!-- Icono web -->
     <link rel="shortcut icon" href="/Portal_Alojamientos_Turisticos-main/html/media-ico/icopaginahotel512x512.ico"
         type="image/x-icon" />
     <script src="./static/js/carrusel-pueblos.js"></script>
+    
+    
 </head>
 
 <body>
@@ -80,10 +83,74 @@
             </div>
         </nav>
     </header>
+
     <main>
         <div id="imagenPromo">
             <p>DESCUBRE DE TODO EN BALEARES</p>
         </div>
+        <br>
+        <div class="carrusel-contenedor">
+            <div class="carrusel-wrapper" id="carrusel">
+                <!-- First set of items -->
+                <div class="carrusel-item">
+                  <article class="div-ofertas">
+                    <div class="div-ofertas-izq">
+                      <div class="div-ofertas-text">
+                        <b>Trabajo, relax... o un poco de todo</b>
+                        <p>Para aquellos que buscan un entorno tranquilo para trabajar, ofrecemos espacios cómodos.</p>
+                      </div>
+                      <div class="div-ofertas-boton">
+                        <a href="#">Elige tu estancia</a>
+                      </div>
+                    </div>
+                    <div class="div-ofertas-derech">
+                      <img src="https://r-xx.bstatic.com/xdata/images/xphoto/500x500/292129044.jpeg?k=aeb7395c745897697215d617d9fea48166993da4f0c45a425a3d091666a749df&o=">
+                    </div>
+                  </article>
+                </div>
+            
+                <div class="carrusel-item">
+                  <article class="div-ofertas">
+                    <div class="div-ofertas-izq">
+                      <div class="div-ofertas-text">
+                        <b>¡Descubre las ofertas exclusivas para residentes!</b>
+                        <p>Sumérgete en un mundo de descuentos especiales diseñados pensando en ti.</p>
+                      </div>
+                      <div class="div-ofertas-boton">
+                        <a href="#">Elige tu estancia</a>
+                      </div>
+                    </div>
+                    <div class="div-ofertas-derech">
+                      <img src="./media-lugares/calas-mall.jpg">
+                    </div>
+                  </article>
+                </div>
+            
+
+                <div class="carrusel-item">
+                  <article class="div-ofertas">
+                    <div class="div-ofertas-izq">
+                      <div class="div-ofertas-text">
+                        <b>Para las familias que buscan relajarse</b>
+                        <p>Ofrecemos paquetes especiales que incluyen estancias familiares en resorts de lujo con actividades recreativas.</p>
+                      </div>
+                      <div class="div-ofertas-boton">
+                        <a href="#">Ver ofertas</a>
+                      </div>
+                    </div>
+                    <div class="div-ofertas-derech">
+                      <img src="./media-lugares/fam.jpg">
+                    </div>
+                  </article>
+                </div>
+            
+            </div>
+        </div>
+        
+        <a class="carrusel-controles"id="next">></a>
+
+        <script src="./static/js/carrusel-ofertas.js"></script>
+
         <h2>Lugares de las Islas Baleares</h2>
         <table>
             <thead>
@@ -158,6 +225,7 @@
             </article>
         </section>
     </main>
+
     <aside>
         <h2>Noticias o Anuncio</h2>
         <div id="animacioncambio">
@@ -166,6 +234,7 @@
             <img id="img3animacambio" alt="¡Accede ya a estos lugares!" src="./media-aside/anuncio3.png">
         </div>
     </aside>
+
     <footer>
         <div class="enlinea">
             <p>© 2023 Portal de Alojamientos Turísticos de las Islas Baleares</p>
