@@ -105,6 +105,8 @@
 }
 
 .cuadro-cancel {
+    display: flex;
+    justify-content: center;
     padding: 10px;
     box-shadow: 1px 1px 5px black;
     background-color: azure;
