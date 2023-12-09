@@ -109,3 +109,7 @@ header a {
     text-decoration: none;
 
 }
+
+.logo-menu:hover{
+    background-color: rgb(144, 190, 255);
+}
