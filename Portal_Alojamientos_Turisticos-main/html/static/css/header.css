@@ -103,3 +103,9 @@
 header {
     padding-bottom: 20px;
 }
+
+header a {
+    color: whitesmoke;
+    text-decoration: none;
+
+}
