@@ -4,6 +4,8 @@
     border-radius: 5px;
     padding: 1%;
     background-color: #80bdff;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .detalles-alojamiento-der {
@@ -14,6 +16,8 @@
     width: 56%;
     background-color: rgb(241, 170, 89);
     border-radius: 5px;
+    padding-bottom: 80px;
+    margin-bottom: 20px;
 }
 
 .img-hab-izq {
@@ -116,4 +120,19 @@
 header a{
     text-decoration: none;
     color: white;
+}
+
+/* Cambios mas recientes dia 10 */
+.puntuacionlocaciones {
+    padding: 50px;
+}
+
+.texto-localizacion {
+    padding-left: 10px;
+    padding-bottom: 30px;
+    padding-top: 40px;
+}
+
+.titulo-alojamiento {
+    font-size: 28px;
 }
