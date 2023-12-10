@@ -5,12 +5,16 @@
 @media (min-width:900px) {}
 
 footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 3;
     background-color: #5facff;
     padding: 40px;
+    padding-bottom: 25px;
     text-align: center;
     align-items: center;
-    bottom: 0;
-    padding-bottom: 25px;
+    
 }
 
 footer p {
@@ -49,7 +53,7 @@ footer a:hover {
 
 .patron-footer {
     background-image: url("/Portal_Alojamientos_Turisticos-main/html/media/ocean-patron.png");
-    width: auto;
+    width: 100%;
     height: auto;
     display: block;
 }
@@ -63,24 +67,16 @@ footer a:hover {
     background-color: rgb(216, 255, 255);
     display: inline-block;
     padding-top: 10px;
-    margin-right: 20px;
+    margin-left: 10px;
     margin-bottom: 40px;
     height: 150px;
     width: 200px;
-    margin-left: 20px;
     border-radius: 10%;
 }
 
 footer p{
     padding-bottom: 25px;
 }
-
-
-footer .información-pag:hover {
-    background-color: rgb(179, 251, 251);
-}
-
-
 /*  TESTEO
 #logotipo {
     width: 64px;

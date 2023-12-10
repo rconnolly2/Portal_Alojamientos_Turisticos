@@ -1,8 +1,17 @@
 
+
 .div-menu {
+    height: 10%;
     background-color: rgb(95, 172, 255);
-    margin:0;
-    padding: 0;
+    padding-top: 2%;
+    position: fixed;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    top: 0;
+    left: 0;
     /* PARA QUE QUEDE VISIBLE
     position: fixed;
     z-index: 1000000000;
@@ -12,11 +21,11 @@
 .div-menu-arriba {
     background-color: rgb(95, 172, 255);
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    height: 50%;
     padding:10px;
     margin:0px;
-
     gap:2%;
     /* gap a lo mejor esta mal */
 }
@@ -25,6 +34,8 @@
     background-color: rgb(95, 172, 255);
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 49%;
     padding:10px;
     margin:0px;
     gap:2%;
@@ -51,6 +62,15 @@
     align-items: center;
 }
 
+.vectorial-hotel {
+    width: 30px;
+}
+
+.boton-taxi {
+    display: flex;
+    align-items: center;
+}
+
 .elementos-arriba-menu:hover {
     background-color: rgba(255, 255, 255, 0.194);
     border-radius: 5px;
@@ -58,11 +78,12 @@
 
 .boton-blanco {
     display: flex;
+    justify-content: center;
     align-items: center;
     background-color: white;
     color: rgb(46, 46, 255);
-    padding: 6px;
-    height: 20px;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .boton-blanco:hover {
@@ -108,8 +129,4 @@ header a {
     color: whitesmoke;
     text-decoration: none;
 
-}
-
-.logo-menu:hover{
-    background-color: rgb(144, 190, 255);
 }

@@ -11,6 +11,7 @@
   <!-- Descripción -->
   <meta name="description"
     content="Alojamientos turístucos en las Islas Baleares. Encuentra tu mejor opción para tus vacaciones en hoteles, apartamentos y más.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="./static/css/header.css">
   <link rel="stylesheet" href="./static/css/menu.css">
   <link rel="stylesheet" href="./static/css/main.css">
@@ -20,18 +21,20 @@
   <link rel="stylesheet" href="./static/css/formularios.css">
   <link rel="stylesheet" href="./static/css/aside.css">
   <link rel="stylesheet" href="./static/css/ofertas.css">
-  <link rel="stylesheet" href="./static/css/listaolyul.css">
   <!-- Icono web -->
   <link rel="shortcut icon" href="/Portal_Alojamientos_Turisticos-main/html/media-ico/icopaginahotel512x512.ico"
     type="image/x-icon" />
   <script src="./static/js/carrusel-pueblos.js"></script>
+
+
 </head>
 
 <body>
   <header>
+    <div class="tapa-nav-izq"></div>
     <nav>
       <!-- a la misna pagina enlace -->
-      <a name="irarriba"></a>
+      <a name="irarriba">a</a>
       <div class="div-menu">
         <div class="div-menu-arriba">
           <a href="index.html" target="_self">
@@ -46,7 +49,7 @@
                 alt="bandera España" width="30px" src="media/bandera_españa.png"></a>
           </div>
           <div class="elementos-arriba-menu">
-            <a class="faq" href="#irabajo"><svg alt="faq" width="30px" viewBox="0 0 24 24"
+            <a class="faq" href="#irabajo"><svg alt="faq" width="30" viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M9.75 9a2.25 2.25 0 1 1 3 2.122 2.25 2.25 0 0 0-1.5 2.122v1.006a.75.75 0 0 0 1.5 0v-1.006c0-.318.2-.602.5-.708A3.75 3.75 0 1 0 8.25 9a.75.75 0 1 0 1.5 0zM12 16.5a1.125 1.125 0 1 0 0 2.25 1.125 1.125 0 0 0 0-2.25.75.75 0 0 0 0 1.5.375.375 0 1 1 0-.75.375.375 0 0 1 0 .75.75.75 0 0 0 0-1.5zM22.5 12c0 5.799-4.701 10.5-10.5 10.5S1.5 17.799 1.5 12 6.201 1.5 12 1.5 22.5 6.201 22.5 12zm1.5 0c0-6.627-5.373-12-12-12S0 5.373 0 12s5.373 12 12 12 12-5.373 12-12z">
@@ -54,8 +57,7 @@
               </svg></a>
           </div>
           <div class="elementos-arriba-menu">
-            <a href="http://www.radiotaxiciutat.com/" target="_blank">Taxis aeropuerto 👌<img alt="Taxi" width="30px"
-                src="media/taxi.png"></a>
+          <a class="boton-taxi" href="http://www.radiotaxiciutat.com/" target="_blank">Taxis aeropuerto 👌<img alt="Taxi" width="30px" src="media/taxi.png"></a>
           </div>
           <a class="boton-blanco" href="RegistroUsuario.html" target="_blank">Hazte una cuenta</a>
           <!-- Vinculado con InicioSesion.html -->
@@ -67,8 +69,8 @@
           </a>
 
           <div class="elementos-abajo-menu-hoteles">
-            <a href="hotel.html" target="_blank">Hotel<span><img class="logo-hotel-menu" alt="Hotel" width="30px"
-                  src="media/hotel.png"></span></a>
+            <a href="hotel.html" target="_blank">Hotel<img class="logo-hotel-menu" alt="Hotel" width="30px"
+                  src="media/hotel.png"></a>
           </div>
 
           <div class="elementos-abajo-menu">
@@ -93,7 +95,7 @@
 
   <main>
     <div id="imagenPromo">
-      <p>DESCUBRE DE TODO EN BALEARES</p>
+      <p>Descubre de todo en Baleares</p>
     </div>
     <br>
     <div class="carrusel-contenedor">
@@ -151,14 +153,17 @@
               <img src="./media-lugares/fam.jpg">
             </div>
           </article>
-        </div>
+
+        </div><a class="carrusel-controles" id="next">></a>
 
       </div>
     </div>
+
     <a class="carrusel-controles" id="next">></a>
+
     <script src="./static/js/carrusel-ofertas.js"></script>
 
-    <h2>Lugares de las Islas Baleares</h2>
+    <h2 id="titulo_lugares">Lugares de las Islas Baleares</h2>
     <table>
       <thead>
         <tr>
@@ -215,66 +220,24 @@
       </div>
 
       <input class="boton-siguiente-slide" type="button" value=">" onclick="siguiente_pueblo()">
- -->
-      <article>
-        <h2>Lista de alojamientos según la cantidad de estrellas y llaves</h2>
-        <ol>
-          <li>4 estrellas
-            <ul>
-              <li>GALEON - POLLENÇA</li>
-              <li>HOTEL PALMIRA PARADISE & SUITES - CALVIÀ</li>
-              <li>OCCIDENTAL PLAYA DE PALMA - PALMA</li>
-            </ul>
-          </li>
-          <li>3 estrellas
-            <ul>
-              <li>LA SANTA MARIA - SANT LLORENÇ DES CARDASSAR</li>
-              <li>MARTORELL - SES SALINES</li>
-              <li>VILLA ROSA - CALVIÀ</li>
-            </ul>
-          </li>
-          <li>3 claus
-            <ul>
-              <li>LOS PRINCIPES II - MURO</li>
-            </ul>
-          </li>
-          <li>2 estrellas
-            <ul>
-              <li>SOL Y VIDA - MANACOR</li>
-            </ul>
-          </li>
-          <li>2 claus
-            <ul>
-              <li>AVENIDA - CALVIÀ</li>
-            </ul>
-          </li>
-          <li>1 estrella
-            <ul>
-              <li>NIMA - CALVIÀ</li>
-              <li>GAMI - CAPDEPERA</li>
-              <li>MIRAMAR - DEIÀ</li>
-              <li>HOSTAL BLANCA - SANTA MARGALIDA</li>
-            </ul>
-          </li>
-          <li>1 clau
-            <ul>
-              <li>SIVELLA - POLLENÇA</li>
-              <li>MAR DEL PLATA - PALMA</li>
-              <li>THE HOSTAL TIERRAMAR - PALMA</li>
-            </ul>
-          </li>
-        </ol>
 
+      <article>
+        <h3>Hotel 3 estrellas n1</h3>
+        <img alt="" src="hotel1.jpg">
+        <p>El Hotel Exemplar es un hotel de 5 estrellas situado en Palma. Con vistas al mar y todas las
+          comodidades que puedas imaginar, es el lugar perfecto para tus vacaciones.</p>
+      </article>
+      <article>
+        <h3>Hotel 4 estrellas n2</h3>
+        <img alt="" src="hotel2.jpg">
+        <p>El Hotel de...</p>
       </article>
 
-      <h2>¡Disfruta de una Gran Variedad de Hoteles!</h2>
+      <h2>Barrios de Mallorca</h2>
       <article>
-        <h3>En Mallorca</h3>
-        <video autoplay="autoplay" muted frameborder="0" scrolling="no" height="720px" width="1280px"
-          title="videopromo">
-          <source src="./videos/video2.mp4" type="video/mp4">
-          Video promocional de Hoteles en Mallorca
-        </video>
+        <h3>Santa Catalina</h3>
+        <img alt="" src="barrio1.jpg">
+        <p>El barrio 1.</p>
       </article>
     </section>
   </main>
@@ -370,3 +333,5 @@
 </body>
 
 </html>
+
+

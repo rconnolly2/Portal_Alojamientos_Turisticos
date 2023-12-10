@@ -1,13 +1,11 @@
-/* Mobile version */
-@media(min-width:400px) {
-
+#titulo_lugares {
+    display: flex;
+    justify-content: center;
 }
 
-/* Desktop */
-@media (min-width:900px) {
-
-}
 table {
+    margin-left: auto;
+    margin-right: auto;
     padding-bottom: 50px;
     flex:none;
     overflow: hidden;
@@ -17,10 +15,19 @@ tr{
     margin-top: 0;
     display: block;
 }
-td{
+td img{
     background-color: rgb(95, 172, 255);
     padding: 8px;
     border-radius: 4%;
+
+}
+
+td img:hover {
+    transition-delay: 0.3s;
+    transition-duration: 2s;
+    border: 20px solid black;
+    box-shadow: inset 1px 1px 10px 0 #000000;
+    box-sizing: border-box;
 }
 
 thead img{
@@ -57,15 +64,22 @@ tbody img {
     color: white;
 }
 
-header {
-    position: relative; 
-    z-index: 1;
-}
 
 main {
     padding: 20px; 
     background-color: rgba(200, 231, 254, 0.734);
-    position: relative; 
-    z-index: 2; 
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
 }
 
+/*Movil*/
+@media (max-width: 750px) {
+
+    tbody tr td:nth-child(n+3) {
+        display: none;
+      }
+    td img  {
+        width: 100%;
+    }
+}
