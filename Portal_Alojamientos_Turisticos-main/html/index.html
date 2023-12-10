@@ -21,13 +21,10 @@
   <link rel="stylesheet" href="./static/css/formularios.css">
   <link rel="stylesheet" href="./static/css/aside.css">
   <link rel="stylesheet" href="./static/css/ofertas.css">
-  
   <!-- Icono web -->
   <link rel="shortcut icon" href="/Portal_Alojamientos_Turisticos-main/html/media-ico/icopaginahotel512x512.ico"
     type="image/x-icon" />
   <script src="./static/js/carrusel-pueblos.js"></script>
-
-
 
 
 </head>
@@ -36,6 +33,8 @@
   <header>
     <div class="tapa-nav-izq"></div>
     <nav>
+      <!-- a la misna pagina enlace -->
+      <a name="irarriba">a</a>
       <div class="div-menu">
         <div class="div-menu-arriba">
           <a href="index.html" target="_self">
@@ -160,7 +159,7 @@
       </div>
     </div>
 
-    
+    <a class="carrusel-controles" id="next">></a>
 
     <script src="./static/js/carrusel-ofertas.js"></script>
 
@@ -182,7 +181,7 @@
     </table>
     <section>
       <h2>Descubre pueblos de Mallorca</h2>
-
+      <!-- 
       <div class="carrusel-contenedor">
         <div class="carrusel-wrapper" id="carousel">
           <article class="carrusel-item"><img
@@ -222,18 +221,36 @@
 
       <input class="boton-siguiente-slide" type="button" value=">" onclick="siguiente_pueblo()">
 
+      <article>
+        <h3>Hotel 3 estrellas n1</h3>
+        <img alt="" src="hotel1.jpg">
+        <p>El Hotel Exemplar es un hotel de 5 estrellas situado en Palma. Con vistas al mar y todas las
+          comodidades que puedas imaginar, es el lugar perfecto para tus vacaciones.</p>
+      </article>
+      <article>
+        <h3>Hotel 4 estrellas n2</h3>
+        <img alt="" src="hotel2.jpg">
+        <p>El Hotel de...</p>
+      </article>
+
+      <h2>Barrios de Mallorca</h2>
+      <article>
+        <h3>Santa Catalina</h3>
+        <img alt="" src="barrio1.jpg">
+        <p>El barrio 1.</p>
+      </article>
     </section>
   </main>
 
   <aside>
     <h2>Noticias o Anuncio</h2>
     <a href="https://www.ultimahora.es/" target="_blank">
-    <div id="animacioncambio">
-      <img id="img1animacambio" alt="¡Accede ya a estos lugares!" src="./media-aside/anuncio1.png">
-      <img id="img2animacambio" alt="¡Accede ya a estos lugares!" src="./media-aside/anuncio2.png">
-      <img id="img3animacambio" alt="¡Accede ya a estos lugares!" src="./media-aside/anuncio3.png">
-    </div>
-  </a>
+      <div id="animacioncambio">
+        <img id="img1animacambio" alt="¡Accede ya a estos lugares!" src="./media-aside/anuncio1.png">
+        <img id="img2animacambio" alt="¡Accede ya a estos lugares!" src="./media-aside/anuncio2.png">
+        <img id="img3animacambio" alt="¡Accede ya a estos lugares!" src="./media-aside/anuncio3.png">
+      </div>
+    </a>
   </aside>
 
   <footer>
@@ -266,7 +283,7 @@
           <!-- a la misna pagina enlace -->
           <a href="#irarriba" target="_self">Guia de viajes</a>
           <!-- paginas externas -->
-          <a href="https://www.tsubahotel.com/es/faq-preguntas-frecuentes/">Preguntas
+          <a href="https://www.tsubahotel.com/es/faq-preguntas-frecuentes/" target="_blank">Preguntas
             Frecuentes</a>
           <a href="https://www.amazon.es/blackfriday" target="_blank">Black Friday</a><a
             href="https://hotmart.com/es-es/afiliados" target="_blank">Afiliados</a>

@@ -13,23 +13,29 @@
     <link rel="stylesheet" href="../static/css/footer.css">
     <link rel="stylesheet" href="../static/css/lista_hoteles.css">
     <link rel="stylesheet" href="../static/css/alojamiento.css">
+    <link rel="stylesheet" href="../static/css/general.css">
+    <link rel="stylesheet" href="../static/css/fixdefooter.css">
 </head>
 
 <body>
     <header>
         <nav>
             <!-- a la misna pagina enlace -->
-            <a name="irarriba">a</a>
+            <a name="irarriba"></a>
             <div class="div-menu">
                 <div class="div-menu-arriba">
                     <a href="../index.html" target="_self">
                         <img class="logo-menu" src="../media/logo.png">
                     </a>
                     <div class="elementos-arriba-menu">
-                        <a class="moneda" href="https://www.xe.com/es/currencyconverter/convert/?Amount=1&From=EUR&To=USD" target="_blank">EUR</a>
+                        <a class="moneda"
+                            href="https://www.xe.com/es/currencyconverter/convert/?Amount=1&From=EUR&To=USD"
+                            target="_blank">EUR</a>
                     </div>
                     <div class="elementos-arriba-menu">
-                        <a href="https://www.defensa.gob.es/guardiareal/Menu/Identidad/Bandera_de_Espana/" target="_blank"><img alt="bandera España" width="30px" src="../media/bandera_españa.png"></a>
+                        <a href="https://www.defensa.gob.es/guardiareal/Menu/Identidad/Bandera_de_Espana/"
+                            target="_blank"><img alt="bandera España" width="30px"
+                                src="../media/bandera_españa.png"></a>
                     </div>
                     <div class="elementos-arriba-menu">
                         <a class="faq" href="#irabajo"><svg alt="faq" width="30px" viewBox="0 0 24 24"
@@ -40,7 +46,8 @@
                             </svg></a>
                     </div>
                     <div class="elementos-arriba-menu">
-                        <a href="http://www.radiotaxiciutat.com/" target="_blank">Taxis aeropuerto 👌<img alt="Taxi" width="30px" src="../media/taxi.png"></a>
+                        <a href="http://www.radiotaxiciutat.com/" target="_blank">Taxis aeropuerto 👌<img alt="Taxi"
+                                width="30px" src="../media/taxi.png"></a>
                     </div>
                     <a class="boton-blanco" href="../RegistroUsuario.html" target="_blank">Hazte una cuenta</a>
                     <!-- Vinculado con InicioSesion.html -->
@@ -52,8 +59,8 @@
                     </a>
 
                     <div class="elementos-abajo-menu-hoteles">
-                        <a href="../hotel.html" target="_blank">Hotel<span><img class="logo-hotel-menu" alt="Hotel" width="30px"
-                                    src="../media/hotel.png"></span></a>
+                        <a href="../hotel.html" target="_blank">Hotel<span><img class="logo-hotel-menu" alt="Hotel"
+                                    width="30px" src="../media/hotel.png"></span></a>
                     </div>
 
                     <div class="elementos-abajo-menu">
@@ -127,24 +134,21 @@
 
         <div class="formulario-habitacion-der">
             <form method="post" action="https://booking.com" name="datos-pedido">
-                <span><b>>Habitación Individual Amplia</b></span> <input type="checkbox" name="1dormitorio"><br>
+                <span><b>>Habitación Doble Económica</b></span> <input type="checkbox" name="1dormitorio"><br>
                 <svg class="estilo-svg-servicio" viewBox="0 0 128 128" width="1em" height="1em">
                     <path
                         d="M120 88v8a4 4 0 0 1-8 0v-8H16v8a4 4 0 0 1-8 0v-8a8 8 0 0 1 8-8h96a8 8 0 0 1 8 8zM20 52a4 4 0 0 1 4-4h80a4 4 0 0 1 4 4v8h8v-8a12 12 0 0 0-12-12H24a12 12 0 0 0-12 12v8h8zm40 20a8 8 0 0 0-8-8H20a8 8 0 0 0-8 8v4h48zm16-8a8 8 0 0 0-8 8v4h48v-4a8 8 0 0 0-8-8z">
                     </path>
-                </svg><b>Dormitorio: </b>1 cama individual<br>
+                </svg><b>Dormitorio: </b>1 cama individual para cada habitación<br>
                 <br>
                 <svg class="estilo-svg-servicio" viewBox="0 0 128 128" width="1em" height="1em">
 
                 </svg>
-                <input class="estilo-boton-compra" type="submit" value="COMPRAR"><input class="estilo-boton-compra"
-                    type="reset" value="RESTABLECER">
-
 
             </form>
             <br>
             <form method="post" action="https://booking.com" name="datos-pedido">
-                <span><b>>Habitación Doble con balcón</b></span> <input type="checkbox" name="2dormitorio"><br>
+                <span><b>Habitación Doble Deluxe</b></span> <input type="checkbox" name="2dormitorio"><br>
                 <svg class="estilo-svg-servicio" viewBox="0 0 128 128" width="1em" height="1em">
                     <path
                         d="M120 88v8a4 4 0 0 1-8 0v-8H16v8a4 4 0 0 1-8 0v-8a8 8 0 0 1 8-8h96a8 8 0 0 1 8 8zM20 52a4 4 0 0 1 4-4h80a4 4 0 0 1 4 4v8h8v-8a12 12 0 0 0-12-12H24a12 12 0 0 0-12 12v8h8zm40 20a8 8 0 0 0-8-8H20a8 8 0 0 0-8 8v4h48zm16-8a8 8 0 0 0-8 8v4h48v-4a8 8 0 0 0-8-8z">
@@ -156,7 +160,6 @@
                     </path>
 
                 </svg><b>Camas: </b>2 camas dobles<br>
-                <b>Balcón: </b>Uno<br>
                 <br>
                 <input class="estilo-boton-compra" type="submit" value="COMPRAR"><input class="estilo-boton-compra"
                     type="reset" value="RESTABLECER">
@@ -172,11 +175,13 @@
     <div class="detalles-alojamiento-der">
         <h3 class="titulo-alojamiento">Beetroot, 2024 Hostal recién renovado, cada habitación tiene smart TV, ducha tipo
             lluvia y balcón.</h3>
+        <div class="puntuacionlocaciones"><img src="../media/1estrella.png"></div>
         <p class="texto-localizacion"><img width="14px" src="../media/localizacion.png" alt="logo localización">9
             Avinguda Europa, 07600 Llucmajor, España </p>
         <div class="imagenes-habitacion">
             <div class="img-hab-izq">
                 <img src="../media-hoteles/beetroot1.jpg" alt="Beetroot 1">
+                <br>
                 <img src="../media-hoteles/beetroot2.jpg" alt="Beetroot 2">
             </div>
 
@@ -222,8 +227,7 @@
                         target="_blank">Política
                         de
                         Cookies</a>
-                        <a href="https://www.whatsapp.com/legal/privacy-policy?lang=es_LA"
-                        target="_blank">Política de
+                    <a href="https://www.whatsapp.com/legal/privacy-policy?lang=es_LA" target="_blank">Política de
                         Calidad</a><br>
                 </div>
                 <div class="información-pag">
@@ -236,7 +240,7 @@
                     <!-- a la misna pagina enlace -->
                     <a href="#irarriba" target="_self">Guia de viajes</a>
                     <!-- paginas externas -->
-                    <a href="https://www.tsubahotel.com/es/faq-preguntas-frecuentes/">Preguntas
+                    <a href="https://www.tsubahotel.com/es/faq-preguntas-frecuentes/" target="_blank">Preguntas
                         Frecuentes</a>
                     <a href="https://www.amazon.es/blackfriday" target="_blank">Black Friday</a><a
                         href="https://hotmart.com/es-es/afiliados" target="_blank">Afiliados</a>
@@ -265,17 +269,21 @@
                 </div>
                 <div class="información-pag">
                     <a class="a-principal-en-footer">Contacta con Nosotros</a>
-                    <div class="espacio-entre-img-footer"><a href="https://www.facebook.com/?locale=es_ES" target="_blank"><img alt="Facebook" src="../media-footer/facebook.png"
-                                width="30px" height="auto"></a><a href="https://www.youtube.com/watch?v=wWrfDXIT_rU" target="_blank"><img alt="Youtube" src="../media-footer/youtube.png"
-                                width="30px" height="auto"></a></div>
-                    <div class="espacio-entre-img-footer"><a href="https://www.tiktok.com/es/" target="_blank"><img alt="tik-tok" src="../media-footer/tik-tok.png"
-                                width="30px" height="auto"></a>
-                                <a href="https://www.instagram.com/" target="_blank"><img alt="instagram"
+                    <div class="espacio-entre-img-footer"><a href="https://www.facebook.com/?locale=es_ES"
+                            target="_blank"><img alt="Facebook" src="../media-footer/facebook.png" width="30px"
+                                height="auto"></a><a href="https://www.youtube.com/watch?v=wWrfDXIT_rU"
+                            target="_blank"><img alt="Youtube" src="../media-footer/youtube.png" width="30px"
+                                height="auto"></a></div>
+                    <div class="espacio-entre-img-footer"><a href="https://www.tiktok.com/es/" target="_blank"><img
+                                alt="tik-tok" src="../media-footer/tik-tok.png" width="30px" height="auto"></a>
+                        <a href="https://www.instagram.com/" target="_blank"><img alt="instagram"
                                 src="../media-footer/instagram.png" width="30px" height="auto"></a>
-                            </div>
-                    <div class="espacio-entre-img-footer"><a href="https://www.xataka.com/basics/como-entrar-deep-web-guia-2020-para-entrar-tor-zeronet-freenet-e-i2p" target="_blank"><img alt="dark-web" src="../media-footer/dark-web.png"
-                                width="30px" height="auto"></a><a href="https://www.reddit.com/?rdt=46614" target="_blank"><img alt="reddit" src="../media-footer/reddit.png"
-                                width="30px" height="auto"></a></div>
+                    </div>
+                    <div class="espacio-entre-img-footer"><a
+                            href="https://www.xataka.com/basics/como-entrar-deep-web-guia-2020-para-entrar-tor-zeronet-freenet-e-i2p"
+                            target="_blank"><img alt="dark-web" src="../media-footer/dark-web.png" width="30px"
+                                height="auto"></a><a href="https://www.reddit.com/?rdt=46614" target="_blank"><img
+                                alt="reddit" src="../media-footer/reddit.png" width="30px" height="auto"></a></div>
                 </div>
             </div>
         </div>
